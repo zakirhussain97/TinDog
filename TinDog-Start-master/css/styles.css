@@ -16,13 +16,16 @@ h2{
   line-height: 1.5;
   font-weight: bold;
 }
+
 h3{
   font-family: "Montserrat-Bold";
-  font-weight:bold;
+    font-weight:bold;
 }
+
 p{
   color: #8f8f8f;
 }
+
 
 #title{
   background-color: #ff4c68;
@@ -121,6 +124,18 @@ margin: 20px 20px 50px;
   padding: 3% 2%;
 }
 
+
+@media(max-width: 1028px) {
+
+#title{
+  text-align: center;
+}
+
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
 /* CTA Section */
 
 #cta{
